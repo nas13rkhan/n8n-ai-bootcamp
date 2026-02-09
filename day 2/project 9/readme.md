@@ -52,17 +52,35 @@ This workflow acts as the **tool provider**.
 
 **Type:** GitHub Tool
 
-| Parameter        | Value                      |
-| ---------------- | -------------------------- |
-| Tool Description | `Update a ticket on GitHub`  |
-| Resource         | file                       |
-| Operation        | edit                       |
-| Owner            | `tobiaszwingmann-demo`     |
-| Repository       | `n8n-ai-bootcamp`          |
-| File Path        | Defined automatically by the model           |
-| File Path Descr. | ```Tickets are stored in the directory `day 2/project 9/tickets/`. Example path: "day 2/project 9/tickets/MHGPYF9K.txt"```  |
-| File Content     | Defined automatically by the model              |
-| File Content Descr. | 
+#### Parameters
+**Tool Description**
+`Update a ticket on GitHub`
+
+**Resource**
+`file`
+
+**Operation**
+`edit`
+
+**Owner**
+`your-github-username`
+
+**Repository**
+`n8n-ai-bootcamp` (forked)
+
+**File Path**
+*Defined automatically by the model*
+
+**File Path Descrription** 
+```
+Tickets are stored in the directory `day 2/project 9/tickets/`.
+Example path: "day 2/project 9/tickets/MHGPYF9K.txt"
+```
+
+**File Content**
+*Defined automatically by the model*
+
+**File Content Description**
 ```
 Required fields: "User Name", "Submitted", "Description", "Status", "Prio". 
 Optional fields: "Activity Log"
@@ -85,8 +103,9 @@ Activity Log:
 2025-11-01T23:15:54.110+01:00 - Ticket created (Urgent). Escalated to human IT technician for account/machine support.
 2025-11-01T23:40:00.000+01:00 - User reported: "I can log in now! it works". User regained access to Windows. No further action required at this time. Ticket closed.
 ```
-|
-| Commit Message   | AI-generated               |
+
+**Commit Message**
+*Defined automatically by the model*
 
 ---
 
